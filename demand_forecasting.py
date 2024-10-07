@@ -15,9 +15,9 @@ import statsmodels.api as sm
 @st.cache_data
 def load_data():
     try:
-        transactions_df = pd.read_csv('Transactional_data_retail_02.csv')
-        product_info_df = pd.read_csv('ProductInfo.csv')
-        customer_df = pd.read_csv('CustomerDemographics.csv')
+        transactions_df = pd.read_csv('data/Transactional_data_retail_02.csv')
+        product_info_df = pd.read_csv('data/ProductInfo.csv')
+        customer_df = pd.read_csv('data/CustomerDemographics.csv')
         return transactions_df, product_info_df, customer_df
     except Exception as e:
         st.error(f"Error loading data: {e}")
