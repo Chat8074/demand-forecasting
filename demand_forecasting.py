@@ -298,6 +298,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-C:\Users\Bharath\Documents\YourActualPath\
-
-Copy-Item "C:\Users\Bharath\Desktop\Demand\demand_forecasting.py" "C:\Users\Bharath\Desktop\Demand\demand-forecasting"
