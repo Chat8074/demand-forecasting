@@ -53,14 +53,6 @@ MarkupSafe
 matplotlib==3.9.0
 matplotlib-inline
 mistune
-mkl-service==2.4.0
-mkl_fft
-mkl_random
-nbclient
-nbconvert
-nbformat
-nest-asyncio
-notebook==7.0.0
 numexpr
 numpy==1.25.2
 packaging
